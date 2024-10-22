@@ -1,10 +1,11 @@
 import React from 'react';
 import bangbooImage from '../image/bangboo.png';
+import paimonImage from "../image/paimon.png";
 
 const MainBanner = () => {
   return (
     <div style={styles.banner}>
-      <h1>Welcome to Hakush</h1>
+      <h1>Welcome to Mangz</h1>
       <p>Your trusted platform for X, Y, Z.</p>
     </div>
   );
@@ -12,9 +13,11 @@ const MainBanner = () => {
 
 const styles = {
   banner: {
-    height: '500px',
-    backgroundImage: `url(${bangbooImage})`,
-    backgroundSize: 'cover',
+    height: '40vh',
+    backgroundImage: `url(${bangbooImage}), url(${paimonImage})`,
+    backgroundSize: 'contain',
+    backgroundPosition: "left, right",
+    backgroundRepeat: "no-repeat",
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
