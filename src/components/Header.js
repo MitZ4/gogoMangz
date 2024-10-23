@@ -19,10 +19,9 @@ const styles = {
   header: {
     display: 'flex',
     justifyContent: 'space-between',
-    padding: '10px 50px',
-    backgroundColor: '#f8f9fa',
+    backgroundColor: '#f8f9fa'
   },
-  logo: { fontSize: '24px', fontWeight: 'bold' },
+  logo: { fontSize: '24px', fontWeight: 'bold', padding: '10px 50px'},
   navList: {
     display: 'flex',
     listStyle: 'none',

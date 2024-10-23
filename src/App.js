@@ -12,15 +12,13 @@ import Zzz from './components/Zzz';
 function App() {
   return (
     <Router>
-      <div>
       <Routes>
           <Route path="/" element={<><Header /><MainBanner /><ServiceSection /><Footer /></>} />
           <Route path="/genshin" element={<Genshin />} />
           <Route path="/starrail" element={<Starrail />} />
-          <Route path="/WutheringWaves" element={<WutheringWaves />} />
-          <Route path="/Zzz" element={<Zzz />} />
+          <Route path="/wutheringWaves" element={<WutheringWaves />} />
+          <Route path="/zzz" element={<Zzz />} />
         </Routes>
-      </div>
     </Router>
   );
 }

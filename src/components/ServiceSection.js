@@ -22,13 +22,14 @@ const styles = {
     justifyContent: "space-around",
     // padding: '50px 0',
     flexWrap: "wrap", // 여러 개의 카드가 줄 바꿈될 수 있도록 설정
+    height: "40vw",
+    maxHeight: "40vh"
   },
   serviceCard: {
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    width: "50vw", // 뷰포트 너비의 30%로 설정
-    height: "20vw", // 뷰포트 너비의 30%로 높이 설정 (정사각형 유지)
+    width: "50vw", // 뷰포트 너비의 50%로 설정
     backgroundColor: "#f1f1f1",
     borderRadius: "8px",
   },
